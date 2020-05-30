@@ -1,0 +1,10 @@
+var iFileName = "Airbender Armour.js";
+ArmourList["airbender armour"] = {
+	name : "Airbender Armour (Wis)",
+	source : ["HB", 0],
+	regExpSearch : /^(?=.*airbender)(?=.*armour).*$/i,
+	ac : 10,
+	type : "light",
+	addMod : true,
+};
+
